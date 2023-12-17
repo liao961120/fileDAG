@@ -1,0 +1,7 @@
+output_file	date	rule	version	log-file(s)	input-file(s)	shellcmd	status	plan
+made/wordfreq.png	Sat Dec 16 10:21:46 2023	plot_word_freq	-		made/merged.csv,made/stopwords.txt,src/viz.R	Rscript src/viz.R made/merged.csv made/stopwords.txt made/wordfreq.png	ok	no update
+made/CausalModel.csv	-	extract_word_freq	-		raw/html/CausalModel.html,raw/html/DeepLearning.html,raw/html/MultilevelModel.html,src/extract_word_freq.R	-	removed temp file	no update
+made/MultilevelModel.csv	-	extract_word_freq	-		raw/html/CausalModel.html,raw/html/DeepLearning.html,raw/html/MultilevelModel.html,src/extract_word_freq.R	-	removed temp file	no update
+made/DeepLearning.csv	-	extract_word_freq	-		raw/html/CausalModel.html,raw/html/DeepLearning.html,raw/html/MultilevelModel.html,src/extract_word_freq.R	-	removed temp file	no update
+made/merged.csv	Sat Dec 16 10:20:48 2023	extract_word_freq	-		raw/html/CausalModel.html,raw/html/DeepLearning.html,raw/html/MultilevelModel.html,src/extract_word_freq.R	-	ok	no update
+made/stopwords.txt	Sat Dec 16 10:21:45 2023	get_stopwords	-		src/stopwords.R	Rscript src/stopwords.R made/stopwords.txt	ok	no update
